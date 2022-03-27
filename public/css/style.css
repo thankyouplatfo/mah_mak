@@ -1,0 +1,363 @@
+/*badge theme*/
+/* Color Theme Swatches in Hex */
+.teal-1-hex {
+    background-color: #0D6A71 !important;
+}
+
+.teal-2-hex {
+    background-color: #0F7880 !important;
+}
+
+.teal-3-hex {
+    background-color: #1DEFFF !important;
+}
+
+.teal-4-hex {
+    background-color: #073C40 !important;
+}
+
+.teal-5-hex {
+    background-color: #1AD7E6 !important;
+}
+
+/*GLOABL*/
+body, html {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/**
+ * I think these are the main parts that I have to take care of to make a specific UI of the app
+ */
+/*Customizations*/
+a>h1, h1::before, h1::after {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: inherit;
+}
+
+.custom-container-padd {
+    padding-top: 46px !important;
+}
+
+.path-container {
+    margin: 46px 0 23px 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.path-container>h1, .path-container>h1::before, .path-container>h1::after {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.padding-0 {
+    padding: 0% !important;
+}
+
+margin-0 {
+    margin: 0% !important;
+}
+
+.padding-margin-0 {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.margin-top-c1 {
+    margin-top: 10px;
+}
+
+.margin-right-0 {
+    margin-right: 0 !important;
+}
+
+.margin-left-0 {
+    margin-left: 0 !important;
+}
+
+.padding-right-0 {
+    padding-right: 0 !important;
+}
+
+.padding-left-0 {
+    padding-left: 0 !important;
+}
+
+#team, #team * {
+    text-align: center !important;
+}
+
+.special-selection {
+    padding-top: .6pc !important;
+}
+
+#paymentMail {
+    text-transform: uppercase;
+}
+
+.i {
+    font-style: italic !important;
+}
+
+#msg, #notifi, #navbar-all-screens {
+    z-index: 4;
+}
+
+/*headings*/
+/*h1,h2,h3,h4,h5,h6*/
+/*Colors*/
+/*Containers*/
+.w3-content {
+    max-width: 1400px !important;
+}
+
+#footer * {
+    text-align: center !important;
+}
+
+#image-header {
+    width: 100%;
+    min-height: 79vh;
+    max-height: 79vh;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/*Panels*/
+/*Borders*/
+/*Cards*/
+/*Defaults*/
+/*Fonts*/
+
+/*Google*/
+/*Text*/
+.bold {
+    font-weight: 900;
+}
+
+/*Round*/
+/*Padding*/
+.leftCloumenAdsPage {
+    padding-left: 0 !important;
+}
+
+/*Margins*/
+/*Display*/
+
+/*.w3-display-container,
+.w3-display-topleft,
+.w3-display-topright,
+.w3-display-bottomleft,
+.w3-display-bottomright,
+.w3-display-left,
+.w3-display-right,
+.w3-display-middle,
+.w3-display-topmiddle,
+.w3-display-bottommiddle {
+    z-index: 2 !important;
+    color: #073C40 !important;
+}*/
+
+/*Buttons*/
+/* Focusing the .visual-focus-trick with a mouse, touch, or stylus will show a subtle drop shadow. */
+/*.visual-focus-trick:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
+}*/
+#haveAccountBtn, #notHaveAccountBtn {
+    display: block !important;
+    margin-top: 77px !important;
+}
+
+/*Notes*/
+/*Quotes*/
+/*Alerts*/
+/*Tables*/
+/*Lists*/
+li.w3-col {
+    font-weight: 900;
+}
+
+/*Images*/
+#adImage {
+    width: 333px !important;
+    height: 333px !important;
+}
+
+/*Inputs*/
+input:not([type="submit"], [type="checkbox"]), select, textarea {
+    margin-top: 5px !important;
+
+}
+
+textarea {
+    resize: none !important;
+}
+
+/*Badges*/
+/*Tags*/
+.w3-tag {
+    background-color: currentColor !important
+}
+
+/*Icons*/
+.margin-left-small {
+    margin-left: 8px;
+    font-size: inherit !important;
+}
+
+/*Responsive*/
+
+/*Layout*/
+/*Animations*/
+/*Effects*/
+/*Bars*/
+/*Dropdowns*/
+/*Accordions*/
+/*Navigation*/
+/*Sidebar*/
+/*Tabs*/
+/*Pagination*/
+/*Progress Bars*/
+/*Slideshow*/
+/*Modal*/
+.w3-modal {
+    padding-top: 1.25% !important;
+    padding-bottom: 1.25% !important;
+    z-index: 4 !important;
+}
+
+.w3-modal-content {
+    max-width: 1400px !important;
+}
+
+.w3-modal>.w3-modal-content>div#modal-container {
+    overflow-x: auto;
+    height: 82vh;
+}
+
+/*Tooltips*/
+.set-tooltip {
+    position: absolute;
+    right: 0pc;
+    bottom: 20px
+}
+
+/*Grid*/
+/*Code*/
+/*Filters*/
+/*Trends*/
+/*Case*/
+/*Material*/
+/*Validation*/
+/*Versions*/
+/*Mobile*/
+@media only screen and (max-width:452px) {
+    .pad-le, .pad-ri {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
+
+    /*Make the color black when the screen is small OUTLINE*/
+
+    #userNameContainer h2, #userNameContainer h3 {
+        font-size: 5vw !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Responsive*/
+    .w3-row-padding {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /**/
+    body {
+        padding: 0 !important;
+    }
+
+    div[class='w3-col'] {
+        padding: 0 !important;
+    }
+
+    .rightColOrigin {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .leftCloumenAdsPage {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #itineraryRoadCondition1, #itineraryRoadCondition2 {
+        margin-top: -32px !important;
+    }
+
+    #footer {
+        line-height: 39px;
+    }
+
+
+}
+
+/**/
+/** css migrated from user page */
+.hide {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+i {
+    font-size: inherit !important;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h4,
+h5:not(i) {
+
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+
+.tabcontent {
+    display: none;
+}
+
+#userNameContainer {
+    padding: 0%;
+    width: 100%;
+}
+
+#userNameContainer h2, #userNameContainer h3 {
+    font-size: 1.3vw;
+    margin: 0;
+    padding: 0;
+}
+
+#userName>h2,
+h3 {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: white;
+}
+
+#origin-left-column {
+    max-height: 1115px;
+    overflow-y: auto;
+}

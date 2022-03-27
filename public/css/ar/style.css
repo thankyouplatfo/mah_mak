@@ -1,0 +1,8 @@
+*:not(.w3-button,.w3-bar-item){
+    text-align: right!important;
+    direction: rtl!important;
+}
+.not-rtl{
+    direction: ltr!important;
+    text-align: left!important;
+}

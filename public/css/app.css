@@ -1,0 +1,14 @@
+/*my main css file*/
+@import url('style.css');
+@import url('ar/style.css');
+/*cnsb*/
+@import url("cnsb/1/cnsb-no-conflict-min.css");
+/*w3css and w3css libs*/
+@import url("w3css/4/w3.css");
+@import url("w3css/lib/w3-theme-teal.css");
+@import url("w3css/lib/w3-theme-black.css");
+/*ICONS*/
+/*@import url('icons/font-awesome-4.7.0/css/font-awesome.min.css');*/
+@import url('icons/fontawesome-free-6.1.1-web/css/all.min.css');
+/*animate*/
+@import url('animate/animate.min.css');
