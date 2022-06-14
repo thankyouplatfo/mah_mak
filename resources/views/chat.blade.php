@@ -5,7 +5,7 @@
 @section('keywords','صفحة تحكم المستخدم موقع محمول مكفول')
 @section('app')
 @section('containerPath')
-<div class="w3-container w3-content path-container w3-animate-opacity">
+<div class="w3-container w3-content path-container w3-ani-opa">
   <h1>تطبيق الدردشة</h1>
 </div>
 @endsection

@@ -25,9 +25,6 @@ $(document).ready(function () {
         $('.signIn').fadeOut()
         $(".signUp").fadeIn(3333)
     });
-
-
-
     $('body').addClass('w3-light-grey')
     $("#section-btn").click(function () { $("#section").toggle("slow", function () { }); });
     /*headeings*/
@@ -54,6 +51,7 @@ $(document).ready(function () {
     //$('.action-btn').addClass('w3-button')
     $('a:not(a.i-not-btn,button.i-not-btn,input.i-not-btn),button,input[type="submit"]').addClass('w3-bar-item w3-button')
     $('.serviceRequestBtn').addClass('w3-theme-l5')
+    $('input[type="submit"],.inputAsSubmit').addClass('w3-theme w3-large w3-border-theme w3-bar-item w3-button w3-left w3-border')
     /*Notes*/
     /*Quotes*/
     /*Alerts*/
@@ -77,6 +75,14 @@ $(document).ready(function () {
     /*Layout*/
     /*Animations*/
     /*Effects*/
+        $('.w3-ani-fad').addClass('w3-animate-fading')
+        $('.w3-ani-opa').addClass('w3-animate-opacity')
+        $('.w3-ani-t').addClass('w3-animate-top')
+        $('.w3-ani-l').addClass('w3-animate-left')
+        $('.w3-ani-r').addClass('w3-animate-right')
+        $('.w3-ani-b').addClass('w3-animate-bottom')
+        $('.w3-ani-z ').addClass('w3-animate-zoom ')
+        $('.w3-ani-i').addClass('w3-animate-input')
     /*Bars*/
     /*Dropdowns*/
     /*Accordions*/

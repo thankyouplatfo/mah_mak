@@ -29,7 +29,7 @@ Route::get('/service-request-form2', function () {
 });
 
 Route::get('/home', function () {
-    return View::make('pages.home');
+    return view('home');
 });
 Route::get('/about', function () {
     return View::make('pages.contact');
@@ -37,7 +37,7 @@ Route::get('/about', function () {
 
 Route::get('/explorer', function () {
     return view('sections.explorer');
-});
+})->name('exp');
 
 Route::get('/ads', function () {
     return view('ads');
@@ -50,3 +50,15 @@ Route::get('/chat', function () {
 Route::get('/test', function () {
     return view('test');
 });
+
+Route::get('/acount-setting', function () {
+    return view('users.acount-setting');
+})->name('acount-setting');
+
+Route::get('r', function () {
+    return view('Auth.r');
+})->name('r');
+
+Route::get('login', function () {
+    return view('Auth.login');
+})->name('login');

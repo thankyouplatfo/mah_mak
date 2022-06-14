@@ -61,7 +61,7 @@
                     w3-animate-left
                     w3-animate-bottom
                     w3-animate-right
-                    w3-animate-opacity
+                    w3-ani-opa
                     w3-animate-zoom
                     w3-animate-fading
                     w3-animate-input
