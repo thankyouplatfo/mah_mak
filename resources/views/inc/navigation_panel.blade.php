@@ -13,7 +13,7 @@
             الملف الشخصي
         </a>
         <!---->
-        <a title="الإعدادات" href="{{ route('acount-setting') }}" class="w3-right-align w3-large" id="modalAccSett"
+        <a title="الإعدادات" href="{{ route('user_edit') }}" class="w3-right-align w3-large" id="modalAccSett"
             onclick="openTab(event,'modal-acc-set','tabcontent','headTab')">
             <i class="fa-solid fa-cog"></i>
             الإعدادات

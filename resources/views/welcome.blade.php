@@ -27,11 +27,11 @@
     <!--bar for display all section -->
     <div class=" w3-container w3-theme w3-padding-16 w3-right-align w3-ani-l"
         style="max-width: 100%;overflow-y:hidden;overflow-x:auto!important;white-space:nowrap;">
-        <a href="{{ route('exp') }}" target="_blank" class="w3-btn w3-hover-theme w3-large"><i class="fa fa-truck" aria-hidden="true"></i>
+        <a href="{{ route('home') }}" target="_blank" class="w3-btn w3-hover-theme w3-large"><i class="fa fa-truck" aria-hidden="true"></i>
             قسم النقل</a>
-        <a href="{{ route('exp') }}" target="_blank" class="w3-btn w3-hover-theme w3-large"><i class="fa-solid fa-truck-ramp-box"
+        <a href="{{ route('home') }}" target="_blank" class="w3-btn w3-hover-theme w3-large"><i class="fa-solid fa-truck-ramp-box"
                 aria-hidden="true"></i> قسم التحميل وتنزيل</a>
-        <a href="{{ route('exp') }}" target="_blank" class="w3-btn w3-hover-theme w3-large"><i class="fa-solid fa-screwdriver-wrench"
+        <a href="{{ route('home') }}" target="_blank" class="w3-btn w3-hover-theme w3-large"><i class="fa-solid fa-screwdriver-wrench"
                 aria-hidden="true"></i> قسم االفك والتركيب</a>
     </div>
 

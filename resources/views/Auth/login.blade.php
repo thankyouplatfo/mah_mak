@@ -4,9 +4,7 @@
 @section('description', 'محمول مكفول صفحة التحكم للمستخدم')
 @section('keywords', 'صفحة تحكم المستخدم موقع محمول مكفول')
 @section('containerPath')
-    <div class="w3-container w3-content path-container w3-ani-opa">
-        <h1>تسجيل الدخول</h1>
-    </div>
+    <h1>تسجيل الدخول</h1>
 @endsection
 @section('content')
     <div class="w3-container w3-content" style="max-width:1400px;padding-bottom:146px">

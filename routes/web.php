@@ -16,45 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('users/', function () {
-    return view('users/index');
-});
-
-Route::get('/service-request-form', function () {
-    return view('service-request-form');
-});
-Route::get('/service-request-form2', function () {
-    return view('service-request-form2');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
-Route::get('/about', function () {
-    return View::make('pages.contact');
-});
-
-Route::get('/explorer', function () {
-    return view('sections.explorer');
-})->name('exp');
-
-Route::get('/ads', function () {
-    return view('ads');
-});
-
-Route::get('/chat', function () {
-    return view('chat');
-});
-
-Route::get('/test', function () {
-    return view('test');
-});
-
-Route::get('/acount-setting', function () {
-    return view('users.acount-setting');
-})->name('acount-setting');
-
+//
 Route::get('r', function () {
     return view('Auth.r');
 })->name('r');
@@ -62,3 +24,31 @@ Route::get('r', function () {
 Route::get('login', function () {
     return view('Auth.login');
 })->name('login');
+//
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+//
+Route::get('users/', function () {
+    return view('users/index');
+});
+
+Route::get('/user/edit', function () {
+    return view('users.edit');
+})->name('user_edit');
+
+
+//
+Route::get('/service_request_form', function () {
+    return view('service_request_form');
+})->name('service_request_form');
+Route::get('/service_request_form2', function () {
+    return view('service_request_form2');
+});
+
+Route::get('/ads', function () {
+    return view('ads');
+});
+Route::get('/chat', function () {
+    return view('chat');
+});

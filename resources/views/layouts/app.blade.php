@@ -27,13 +27,13 @@
                 <i class="fa fa-home"></i>
                 {{ config('app.name') }} </a>
             <!---->
-            <a title="أضف اعلانا" href="/service-request-form" target="_blank"
+            <a title="أضف اعلانا" href="{{ route('service_request_form') }}" target="_blank"
                 class=" pad-le pad-ri w3-right serviceRequestBtn">
                 أضف اعلانا <i class="fa fa-plus-square" aria-hidden="true"></i>
             </a>
             <!---->
             @auth
-                <a title="أضف اعلانا" href="/service-request-form" target="_blank"
+                <a title="أضف اعلانا" href="{{ route('service_request_form') }}" target="_blank"
                     class=" pad-le pad-ri w3-right serviceRequestBtn">
                     <i class="fa fa-plus-square" aria-hidden="true"></i>
                 </a>
@@ -57,11 +57,6 @@
             </a>
         </div>
     </header>
-    <div class="w3-container w3-content path-container w3-ani-r">
-        <div class="w3-container w3-content path-container w3-ani-opa">
-            <h1>جميع الأقسام</h1>
-        </div>
-    </div>
     <!--container path Or big Title-->
     <div class="w3-container w3-content path-container w3-ani-r">
         @yield('containerPath')
