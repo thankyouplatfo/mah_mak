@@ -11,13 +11,11 @@
         <form class="w3-container w3-padding w3-white w3-padding-16 w3-section signIn">
             <p>
                 <label for="email">البريد الإلكتروني</label>
-                <input type="text" class="w3-light-grey email" name="email" id="email" style="border: 0!important;"
-                    placeholder="البريد الإلكتروني">
+                <input class="email" name="email" id="email" placeholder="البريد الإلكتروني">
             </p>
             <p>
                 <label for="password">كلمة المرور</label>
-                <input type="text" class="w3-light-grey password" name="password" id="password" style="border: 0!important;"
-                    placeholder="كلمة المرور">
+                <input class="password" name="password" id="password" placeholder="كلمة المرور">
             </p>
             <p>
                 <input type="submit" value="تسجيل دخول">

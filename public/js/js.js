@@ -27,6 +27,7 @@ $(document).ready(function () {
     });
     $('body').addClass('w3-light-grey')
     $("#section-btn").click(function () { $("#section").toggle("slow", function () { }); });
+    $("#msg-section").click(function () { $("#msg-box").toggle("slow", function () { }); });
     /*headeings*/
     $('h1:not(.i-not-head),h2:not(.i-not-head),h3:not(.i-not-head),h4:not(.i-not-head),h5:not(.i-not-head),h6:not(.i-not-head)').addClass('w3-text-theme')
     /*Colors*/
@@ -52,6 +53,7 @@ $(document).ready(function () {
     $('a:not(a.i-not-btn,button.i-not-btn,input.i-not-btn),button,input[type="submit"]').addClass('w3-bar-item w3-button')
     $('.serviceRequestBtn').addClass('w3-theme-l5')
     $('input[type="submit"],.inputAsSubmit').addClass('w3-theme w3-large w3-border-theme w3-bar-item w3-button w3-left w3-border')
+    $('#delOrLogout').addClass('w3-red w3-large w3-border-red w3-bar-item w3-button w3-border')
     /*Notes*/
     /*Quotes*/
     /*Alerts*/
@@ -75,14 +77,14 @@ $(document).ready(function () {
     /*Layout*/
     /*Animations*/
     /*Effects*/
-        $('.w3-ani-fad').addClass('w3-animate-fading')
-        $('.w3-ani-opa').addClass('w3-animate-opacity')
-        $('.w3-ani-t').addClass('w3-animate-top')
-        $('.w3-ani-l').addClass('w3-animate-left')
-        $('.w3-ani-r').addClass('w3-animate-right')
-        $('.w3-ani-b').addClass('w3-animate-bottom')
-        $('.w3-ani-z ').addClass('w3-animate-zoom ')
-        $('.w3-ani-i').addClass('w3-animate-input')
+    $('.w3-ani-fad').addClass('w3-animate-fading')
+    $('.w3-ani-opa').addClass('w3-animate-opacity')
+    $('.w3-ani-t').addClass('w3-animate-top')
+    $('.w3-ani-l').addClass('w3-animate-left')
+    $('.w3-ani-r').addClass('w3-animate-right')
+    $('.w3-ani-b').addClass('w3-animate-bottom')
+    $('.w3-ani-z ').addClass('w3-animate-zoom ')
+    $('.w3-ani-i').addClass('w3-animate-input')
     /*Bars*/
     /*Dropdowns*/
     /*Accordions*/
@@ -223,3 +225,5 @@ $('.steps-button-location').on('click', function () {
 $('.steps-button-4').on('click', function () {
     $('#pay-and-post').show()
 })
+/*msg*/
+$('.err').addClass('w3-text-red')

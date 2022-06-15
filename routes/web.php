@@ -31,24 +31,40 @@ Route::get('/home', function () {
 //
 Route::get('users/', function () {
     return view('users/index');
-});
+})->name('users');
 
-Route::get('/user/edit', function () {
+Route::get('users/edit', function () {
     return view('users.edit');
 })->name('user_edit');
-
-
+//
+Route::get('servShow', function () {
+    return view('serv.show');
+})->name('serv.show');
+//
+Route::get('servCreate', function () {
+    return view('serv.create');
+})->name('serv.create');
 //
 Route::get('/service_request_form', function () {
     return view('service_request_form');
 })->name('service_request_form');
-Route::get('/service_request_form2', function () {
-    return view('service_request_form2');
-});
-
+//
 Route::get('/ads', function () {
     return view('ads');
-});
+})->name('ads');
 Route::get('/chat', function () {
     return view('chat');
-});
+})->name('chat');
+//
+Route::get('pay',function(){
+    return view('pay');
+})->name('pay');
+//
+Route::get('servChat', function () {
+    return view('serv.Chat');
+})->name('servChat');
+//
+//
+Route::get('rating', function () {
+    return view('rating');
+})->name('rating');

@@ -21,7 +21,8 @@
 }
 
 /*GLOABL*/
-body, html {
+body,
+html {
     padding: 0 !important;
     margin: 0 !important;
 }
@@ -30,7 +31,9 @@ body, html {
  * I think these are the main parts that I have to take care of to make a specific UI of the app
  */
 /*Customizations*/
-a>h1, h1::before, h1::after {
+a>h1,
+h1::before,
+h1::after {
     margin: 0;
     padding: 0;
     display: inline;
@@ -47,7 +50,9 @@ a>h1, h1::before, h1::after {
     padding-bottom: 0 !important;
 }
 
-.path-container>h1, .path-container>h1::before, .path-container>h1::after {
+.path-container>h1,
+.path-container>h1::before,
+.path-container>h1::after {
     padding: 0;
     margin: 0;
     display: inline;
@@ -86,7 +91,8 @@ margin-0 {
     padding-left: 0 !important;
 }
 
-#team, #team * {
+#team,
+#team * {
     text-align: center !important;
 }
 
@@ -102,7 +108,9 @@ margin-0 {
     font-style: italic !important;
 }
 
-#msg, #notifi, #navbar-all-screens {
+#msg,
+#notifi,
+#navbar-all-screens {
     z-index: 4;
 }
 
@@ -146,8 +154,64 @@ margin-0 {
     padding-left: 0 !important;
 }
 
-/*Margins*/
+/*Margins&Padding*/
+.m-t-0 {
+    margin-top: 0 !important;
+}
+
+.m-r-0 {
+    margin-right: 0 !important;
+}
+
+.m-b-0 {
+    margin-bottom: 0 !important;
+}
+
+.m-l-0 {
+    margin-left: 0 !important;
+}
+
+.m-y-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.m-x-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+
+.p-t-0 {
+    padding-top: 0 !important;
+}
+
+.p-r-0 {
+    padding-right: 0 !important;
+}
+
+.p-b-0 {
+    padding-bottom: 0 !important;
+}
+
+.p-l-0 {
+    padding-left: 0 !important;
+}
+
+.p-y-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.p-x-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
 /*Display*/
+.inline-block {
+    display: inline-block !important;
+}
 
 /*.w3-display-container,
 .w3-display-topleft,
@@ -169,7 +233,8 @@ margin-0 {
     outline: none;
     box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
 }*/
-#haveAccountBtn, #notHaveAccountBtn {
+#haveAccountBtn,
+#notHaveAccountBtn {
     display: block !important;
     margin-top: 77px !important;
 }
@@ -190,7 +255,9 @@ li.w3-col {
 }
 
 /*Inputs*/
-input:not([type="submit"], [type="checkbox"]), select, textarea {
+input:not([type="submit"], [type="checkbox"]),
+select,
+textarea {
     margin-top: 5px !important;
 
 }
@@ -258,14 +325,17 @@ textarea {
 /*Versions*/
 /*Mobile*/
 @media only screen and (max-width:452px) {
-    .pad-le, .pad-ri {
+
+    .pad-le,
+    .pad-ri {
         padding-left: 7px !important;
         padding-right: 7px !important;
     }
 
     /*Make the color black when the screen is small OUTLINE*/
 
-    #userNameContainer h2, #userNameContainer h3 {
+    #userNameContainer h2,
+    #userNameContainer h3 {
         font-size: 5vw !important;
         margin: 0;
         padding: 0;
@@ -296,7 +366,8 @@ textarea {
         padding-right: 0 !important;
     }
 
-    #itineraryRoadCondition1, #itineraryRoadCondition2 {
+    #itineraryRoadCondition1,
+    #itineraryRoadCondition2 {
         margin-top: -32px !important;
     }
 
@@ -344,7 +415,8 @@ h5:not(i) {
     width: 100%;
 }
 
-#userNameContainer h2, #userNameContainer h3 {
+#userNameContainer h2,
+#userNameContainer h3 {
     font-size: 1.3vw;
     margin: 0;
     padding: 0;

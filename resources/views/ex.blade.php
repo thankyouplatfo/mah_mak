@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', config('app.name') . ' | لوحة التحكم')
+@section('title', config('app.name') . ' | الرئيسية')
 @section('themeUrl', asset('css/w3css/lib/w3-theme-blue.css'))
 @section('description', 'محمول مكفول صفحة التحكم للمستخدم')
 @section('keywords', 'صفحة تحكم المستخدم موقع محمول مكفول')

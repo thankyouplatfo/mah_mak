@@ -29,10 +29,10 @@
             الطلبات الواردة
         </a>
         <!---->
-        <a title="سلة المشتريات" href="#contact" class="w3-right-align w3-large">
+        <a title="السلة" href="#contact" class="w3-right-align w3-large">
             <i class="fa fa-cart-arrow-down fa-flip-horizontal"></i>
             <span class="w3-badge">3</span>
-            سلة المشتريات
+            السلة
         </a>
         <hr>
     @endauth

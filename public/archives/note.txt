@@ -280,3 +280,32 @@ toArea
 itineraryRoadCondition1
 itineraryRoadCondition2
 paymentMail
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+git communication
+Finalization of user profile and user journeys
+///////////////////////////////////////////////////////
+المعلومات الشخصية
+اهتماماتك
+اعدادات أطلبني الان
+معلومات الإشتراكات والمدفوعات
+تحدث عن نفسك
+الخبرات السابقة
+personalInformation
+yourInterests
+settingsCallMeNow
+subscriptionsAndPaymentsInformation
+talkAboutYourSelf
+previousExperience
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+عنوان الخدمة
+تصنيف الخدمة
+التصنيف الفرعي للخدمة
+وصف الخدمة
+صور الخدمة
+
+service_address
+service_rating
+service_subcategory
+service_description
+service_pictures

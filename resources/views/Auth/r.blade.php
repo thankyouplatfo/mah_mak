@@ -11,23 +11,19 @@
         <form class="w3-container w3-padding w3-white w3-padding-16 w3-section signIn">
             <p>
                 <label for="firstName">الاسم الأول</label>
-                <input type="text" class="w3-light-grey firstName" name="firstName" id="firstName"
-                    style="border: 0!important;" placeholder="البريد الإلكتروني">
+                <input class="firstName" name="firstName" id="firstName" placeholder="البريد الإلكتروني">
             </p>
             <p>
                 <label for="lastName">الاسم الأخير</label>
-                <input type="text" class="w3-light-grey lastName" name="lastName" id="lastName" style="border: 0!important;"
-                    placeholder="البريد الإلكتروني">
+                <input class="lastName" name="lastName" id="lastName" placeholder="البريد الإلكتروني">
             </p>
             <p>
                 <label for="email">البريد الإلكتروني</label>
-                <input type="text" class="w3-light-grey email" name="email" id="email" style="border: 0!important;"
-                    placeholder="البريد الإلكتروني">
+                <input class="email" name="email" id="email" placeholder="البريد الإلكتروني">
             </p>
             <p>
                 <label for="password">كلمة المرور</label>
-                <input type="text" class="w3-light-grey password" name="password" id="password" style="border: 0!important;"
-                    placeholder="كلمة المرور">
+                <input class="password" name="password" id="password" placeholder="كلمة المرور">
             </p>
             <p>
                 <input type="submit" value="تسجيل">

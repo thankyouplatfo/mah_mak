@@ -17,7 +17,7 @@
                     <a href="{{ route('login') }}" class="inputAsSubmit w3-block w3-section">تسجيل الدخول</a>
                     @auth
                         <a href=""
-                            class="w3-block w3-section w3-red w3-hover-border-red w3-large w3-border-red w3-bar-item w3-button w3-left w3-border">تسجيل
+                            class="delOrLogout">تسجيل
                             الخروج</a>
                     @endauth
                 </div>
