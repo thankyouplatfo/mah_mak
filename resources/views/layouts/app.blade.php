@@ -27,13 +27,13 @@
                 <i class="fa fa-home"></i>
                 {{ config('app.name') }} </a>
             <!---->
-            <a title="أضف اعلانا" href="{{ route('service_request_form') }}" target="_blank"
+            <a title="أضف اعلانا" href="{{ route('add_ads') }}" target="_blank"
                 class=" pad-le pad-ri w3-right serviceRequestBtn">
                 أضف اعلانا <i class="fa fa-plus-square" aria-hidden="true"></i>
             </a>
             <!---->
             @auth
-                <a title="أضف اعلانا" href="{{ route('service_request_form') }}" target="_blank"
+                <a title="أضف اعلانا" href="{{ route('add_ads') }}" target="_blank"
                     class=" pad-le pad-ri w3-right serviceRequestBtn">
                     <i class="fa fa-plus-square" aria-hidden="true"></i>
                 </a>
@@ -79,10 +79,11 @@
                     <img alt="blablabl" src="{{ asset('images/users/profile/avatar_hat.jpg') }}"
                         class="w3-col s2 m2 l2 w3-hide-small w3-right w3-bar-item w3-circle" style="width:85px">
                     <div class="w3-col s10 m9 l9  w3-right w3-bar-item" style="padding-top: 5.5px;">
-                        <span class="w3-large"> <a href="#" class="i-not-btn">نشر محمد عبد الله</a>
+                        <span class="w3-large"> <a href="javascript:void(0)" class="i-not-btn">نشر محمد عبد
+                                الله</a>
                         </span><br>
-                        <span>إعلانا جديدا في <a href="#" class="i-not-btn">قسم النقل</a> | الحيوانات | <a href="#"
-                                class="i-not-btn">بعنوان نقل مواشي من مكة إلى
+                        <span>إعلانا جديدا في <a href="javascript:void(0)" class="i-not-btn">قسم النقل</a> |
+                            الحيوانات | <a href="javascript:void(0)" class="i-not-btn">بعنوان نقل مواشي من مكة إلى
                                 الطائف</a></span>
                     </div>
                 </li>
@@ -107,10 +108,11 @@
                     <img alt="blablabl" src="{{ asset('images/users/profile/avatar_hat.jpg') }}"
                         class="w3-col s2 m2 l2 w3-hide-small w3-right w3-bar-item w3-circle" style="width:85px">
                     <div class="w3-col s10 m9 l9  w3-right w3-bar-item" style="padding-top: 5.5px;">
-                        <span class="w3-large"> <a href="#" class="i-not-btn">نشر محمد عبد الله</a>
+                        <span class="w3-large"> <a href="javascript:void(0)" class="i-not-btn">نشر محمد عبد
+                                الله</a>
                         </span><br>
-                        <span>إعلانا جديدا في <a href="#" class="i-not-btn">قسم النقل</a> | الحيوانات | <a href="#"
-                                class="i-not-btn">بعنوان نقل مواشي من مكة إلى
+                        <span>إعلانا جديدا في <a href="javascript:void(0)" class="i-not-btn">قسم النقل</a> |
+                            الحيوانات | <a href="javascript:void(0)" class="i-not-btn">بعنوان نقل مواشي من مكة إلى
                                 الطائف</a></span>
                     </div>
                 </li>
@@ -128,17 +130,17 @@
             </div>
             <div class="w3-col l2">
                 <ul class="w3-ul ">
-                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">facebook/<a href="#"
+                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">facebook/<a href="javascript:void(0)"
                             class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
-                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">instagram/<a href="#"
+                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">instagram/<a
+                            href="javascript:void(0)" class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
+                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">snapchat/<a href="javascript:void(0)"
                             class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
-                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">snapchat/<a href="#"
+                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">pinterest/<a
+                            href="javascript:void(0)" class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
+                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">twitter/<a href="javascript:void(0)"
                             class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
-                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">pinterest/<a href="#"
-                            class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
-                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">twitter/<a href="#"
-                            class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
-                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">linkedin/<a href="#"
+                    <li class="w3-border-0 w3-border-bottom w3-hover-border-theme">linkedin/<a href="javascript:void(0)"
                             class="i-not-btn cnsb-txt-white">@mah_mak</a></li>
                 </ul>
             </div>
@@ -168,9 +170,13 @@
             </a>
         </p>
     </footer>
-    <script src="{{ asset('js/jq.min.js') }}"></script>
-    <script src="{{ asset('js/w3.js') }}"></script>
-    <script src="{{ asset('js/js.js') }}"></script>
+    <script src="{{ asset('js/libs/jq/jq.min.js') }}"></script>
+    <script src="{{ asset('js/libs/w3js/w3.js') }}"></script>
+    <script src="{{ asset('js/set_css_by_js.js') }}"></script>
+    <script src="{{ asset('js/math.js') }}"></script>
+    <script src="{{ asset('js/auxiliary_functions.js') }}"></script>
+    <script src="{{ asset('js/site.js') }}"></script>
+    @yield('script')
 </body>
 
 </html>

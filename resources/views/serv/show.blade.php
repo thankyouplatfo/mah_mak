@@ -29,7 +29,7 @@
                             <hr>
                         </div>
                         <div class="w3-section">
-                            <a href="#" class="inputAsSubmit w3-section" id="msg-section">تواصل</a>
+                            <a href="javascript:void(0)" class="inputAsSubmit w3-section" id="msg-section">تواصل</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                                 </p>
                                 <p>
                                     <label for="ok">
-                                        <input type="checkbox" class="ok" name="ok" id="ok"> <a href="#" class="i-not-btn w3-text-red">الموافقة على شروط الرسائل</a>
+                                        <input type="checkbox" class="ok" name="ok" id="ok"> <a href="javascript:void(0)" class="i-not-btn w3-text-red">الموافقة على شروط الرسائل</a>
                                     </label>
                                 </p>
                                 <p>
@@ -152,7 +152,7 @@
                                     class="fa-solid fa-money-bill-1-wave"></i></a>
                         </div>
                         <div class="w3-col s6 m6 l6 w3-xxlarge w3-right">
-                            <a href="#" target="_blank" class="w3-xxlarge w3-theme-action w3-block"><i
+                            <a href="javascript:void(0)" target="_blank" class="w3-xxlarge w3-theme-action w3-block"><i
                                     class="fa-solid fa-cart-arrow-down"></i></a>
                         </div>
                     </div>

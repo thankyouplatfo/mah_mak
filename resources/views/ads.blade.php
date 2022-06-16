@@ -151,13 +151,13 @@
                                     المفاوضة</a>
                             </div>
                             <div class="w3-col l4 w3-right">
-                                <a href="#" style="width:100%"><i class="fa-solid fa-thumbs-up"></i> إعجاب</a>
+                                <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-thumbs-up"></i> إعجاب</a>
                             </div>
                             <div class="w3-col l4 w3-right">
-                                <a href="#" style="width:100%"><i class="fa-solid fa-share"></i> شارك الإعلان</a>
+                                <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-share"></i> شارك الإعلان</a>
                             </div>
                             <div class="w3-col l4 w3-right">
-                                <a href="#" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
+                                <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
                             </div>
                         </div>
                     </div>
@@ -278,11 +278,11 @@
                                                     class="fa-solid fa-comments"></i> قبول العرض</a>
                                         </div>
                                         <div class="w3-col l4 w3-right">
-                                            <a href="#" style="width:100%"><i class="fa-solid fa-rectangle-xmark"></i> رفض
+                                            <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-rectangle-xmark"></i> رفض
                                                 وحذف العرض</a>
                                         </div>
                                         <div class="w3-col l4 w3-right">
-                                            <a href="#" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
+                                            <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
                                         </div>
                                     </div>
 

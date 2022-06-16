@@ -6,7 +6,7 @@
 @section('app')
 @section('containerPath')
     <h1 class="inline-block w3-right">الملف الشخصي</h1>
-    <a href="#" class="w3-left w3-large w3-blue" style="margin-top: 5px">وظفني</a>
+    <a href="javascript:void(0)" class="w3-left w3-large w3-blue" style="margin-top: 5px">وظفني</a>
 @endsection
 @section('content')
     <!-- Page Container -->
@@ -22,7 +22,7 @@
                         <div id="userNameContainer"
                             class="w3-display-bottomleft w3-container w3-text-black w3-center w3-theme-l5 w3-padding-small">
                             <h2 class="i-not-head w3-center cnsb-txt-black">اسم مستخدم {{ config('app.name') }} </h2>
-                            <a href="#" class="i-not-btn w3-left-align">
+                            <a href="javascript:void(0)" class="i-not-btn w3-left-align">
                                 <h3 class=" i-not-head w3-center not-rtl cnsb-txt-black w3-left-align">@mahmul_makful</h3>
                             </a>
                         </div>
@@ -197,34 +197,34 @@
                     <div class="w3-bar w3-xlarge">
                         <div class="w3-responsive p-0 m-0">
                             <table class="w3-table">
-                                <th>
+                                <th class="p-0 m-0">
                                     <button class="w3-medium bold tablink w3-right w3-theme-action"
                                         title="مختصر السيرة الذاتية الخاصة بك"
                                         onclick="openTab(event,'my-cv','closeThis','tablink')">عني</button>
                                 </th>
-                                <th>
+                                <th class="p-0 m-0">
                                     <button class="w3-medium bold tablink w3-right" title="إعلاناتك أو طلباتك"
                                         onclick="openTab(event,'my-ad','closeThis','tablink')">إعلاناتي</button>
                                 </th>
-                                <th>
+                                <th class="p-0 m-0">
                                     <button class="w3-medium bold tablink w3-right"
                                         title="الردود التي قمت بكتابتها على إعلانات المستخدمين الأخرين"
                                         onclick="openTab(event,'my-of','closeThis','tablink')">عروضي</button>
                                 </th>
-                                <th>
+                                <th class="p-0 m-0">
                                     <button class="w3-medium bold tablink w3-right" title="السلة"
                                         onclick="openTab(event,'carrier-bag','closeThis','tablink')">السلة</button>
                                 </th>
-                                <th>
+                                <th class="p-0 m-0">
                                     <button class="w3-medium bold tablink w3-right" title="مشترياتك"
                                         onclick="openTab(event,'purchases','closeThis','tablink')">المشتريات</button>
                                 </th>
-                                <th>
+                                <th class="p-0 m-0">
                                     <button class="w3-medium bold tablink w3-right" title="الطلبات الواردة"
                                         onclick="openTab(event,'incoming-requests','closeThis','tablink')">الطلبات
                                         الواردة</button>
                                 </th>
-                                <th>
+                                <th class="p-0 m-0">
                                     <button class="w3-medium bold tablink w3-right" title="الطلبات الواردة"
                                         onclick="openTab(event,'my-serv','closeThis','tablink')">الخدمات</button>
                                 </th>
@@ -316,7 +316,7 @@
                             <div id="openAd" class="tabContent3 w3-container" style="display: block!important;">
                                 <h3>
                                     <span class="w3-tag w3-indigo">مفتوح</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -324,7 +324,7 @@
                             <div id="underwayAd" class="tabContent3 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-blue ">قيد التنفيذ</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -332,7 +332,7 @@
                             <div id="completeAd" class="tabContent3 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-light-blue">مكتمل</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -340,7 +340,7 @@
                             <div id="closedAd" class="tabContent3 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-cyan ">مغلق</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -348,7 +348,7 @@
                             <div id="privateAd" class="tabContent3 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-blue ">خاص</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -356,7 +356,7 @@
                             <div id="canceledAd" class="tabContent3 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-red  ">ملغي</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -369,7 +369,7 @@
                             <h2> <i class="fa fa-gift" aria-hidden="true"></i> عروضي</h2>
                         </div>
                         <p class="w3-center"><strong>أنقر لعرض ردودك حسب حالات المشاريع أدناه :</strong></p>
-                        <div class="w3-responsive" style="padding-top: 20px;padding-bottom:20px;">
+                        <div class="w3-responsive">
                             <table class="w3-table">
                                 <tr>
                                     <th class="w3-block"><a href="javascript:void(0)"
@@ -408,7 +408,7 @@
                             <div id="openOf" class="tabContent4 w3-container" style="display: block!important;">
                                 <h3>
                                     <span class="w3-tag w3-indigo">مفتوح</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -416,7 +416,7 @@
                             <div id="underwayOf" class="tabContent4 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-blue ">قيد التنفيذ</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -424,7 +424,7 @@
                             <div id="completeOf" class="tabContent4 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-light-blue">مكتمل</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -432,7 +432,7 @@
                             <div id="closedOf" class="tabContent4 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-cyan ">مغلق</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -440,7 +440,7 @@
                             <div id="privateOf" class="tabContent4 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-blue ">خاص</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -448,7 +448,7 @@
                             <div id="canceledOf" class="tabContent4 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-red  ">ملغي</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -471,7 +471,7 @@
                                     <td class="w3-center" style="padding: 0!important"><img
                                             src="{{ asset('images/design/app/NorthernLights.jpg') }}" width="100"
                                             height="100"></td>
-                                    <td class="w3-center" style="padding-top:33px!important;"><a href="#"
+                                    <td class="w3-center" style="padding-top:33px!important;"><a href="javascript:void(0)"
                                             class="i-not-btn">نقل مواشي
                                             بشكل شهري</a></td>
                                     <td class="w3-center" style="padding-top:33px!important;">500.55</td>
@@ -495,7 +495,7 @@
                                     <td class="w3-center">150.00 ر.س</td>
                                 </tr>
                             </table>
-                            <a href="#"
+                            <a href="javascript:void(0)"
                                 class="w3-theme w3-large w3-border-theme w3-bar-item w3-button w3-left w3-border bold inline-block w3-section"
                                 style="width:300px">الدفع</a>
                         </div>
@@ -529,7 +529,7 @@
                             <div id="purchases-underwayOf" class="tabContent5 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-blue ">قيد التنفيذ</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -537,7 +537,7 @@
                             <div id="purchases-completeOf" class="tabContent5 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-light-blue">مكتمل</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -573,7 +573,7 @@
                             <div id="incoming-requests-underwayOf" class="tabContent6 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-blue ">قيد التنفيذ</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>
@@ -581,7 +581,7 @@
                             <div id="incoming-requests-completeOf" class="tabContent6 w3-container">
                                 <h3>
                                     <span class="w3-tag w3-light-blue">مكتمل</span>
-                                    <a href="#" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
+                                    <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
                             </div>

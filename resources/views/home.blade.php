@@ -15,15 +15,15 @@
             <div class="w3-row w3-section w3-light-grey" style="height: 135px;margin-bottom:100px;">
                 <div class="w3-col w3-right l12 w3-xlarge w3-light-grey"
                     style="max-width: 100%;overflow-y:hidden;overflow-x:auto;white-space:nowrap;height:inherit">
-                    <a href="#" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
                         <h2 class="i-not-head w3-center"><i class="fa fa-truck w3-jumbo" aria-hidden="true"></i><span
                                 class="w3-block w3-center"> قسم النقل</span></h2>
                     </a>
-                    <a href="#" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
                         <h2 class="i-not-head w3-center"><i class="fa-solid fa-truck-ramp-box w3-jumbo"
                                 aria-hidden="true"></i><span class="w3-block w3-center"> قسم التحميل وتنزيل</span></h2>
                     </a>
-                    <a href="#" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
                         <h2 class="i-not-head w3-center"><i class="fa-solid fa-screwdriver-wrench w3-jumbo"
                                 aria-hidden="true"></i><span class="w3-block w3-center"> قسم االفك والتركيب</span></h2>
                     </a>
@@ -144,13 +144,13 @@
                                                 class="fa-solid fa-comments"></i> بدء المفاوضة</a>
                                     </div>
                                     <div class="w3-col l3 w3-right">
-                                        <a href="#" style="width:100%"><i class="fa-solid fa-thumbs-up"></i> إعجاب</a>
+                                        <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-thumbs-up"></i> إعجاب</a>
                                     </div>
                                     <div class="w3-col l3 w3-right">
-                                        <a href="#" style="width:100%"><i class="fa-solid fa-share"></i> شارك الإعلان</a>
+                                        <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-share"></i> شارك الإعلان</a>
                                     </div>
                                     <div class="w3-col l3 w3-right">
-                                        <a href="#" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
+                                        <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
                                     </div>
                                 </div>
 

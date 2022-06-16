@@ -38,7 +38,7 @@
                             class="fa-solid fa-money-bill-1-wave"></i></a>
                 </div>
                 <div class="w3-col s4 m4 l4 w3-right">
-                    <a href="#" target="_blank" class="w3-large w3-theme-action w3-block"><i
+                    <a href="javascript:void(0)" target="_blank" class="w3-large w3-theme-action w3-block"><i
                             class="fa-solid fa-cart-arrow-down"></i></a>
                 </div>
             </div>

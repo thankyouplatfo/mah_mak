@@ -9,9 +9,9 @@
 @section('content')
     <div class="w3-content w3-white" style="max-width:1400px;margin-bottom:64px!important">
         <div class="w3-bar w3-theme-l3">
-            <a href="#" onclick="openTab(event,'pay-by-method-1','pay-by-method','tabLink')"
+            <a href="javascript:void(0)" onclick="openTab(event,'pay-by-method-1','pay-by-method','tabLink')"
                 class="w3-right w3-theme-action tabLink">بطاقة ائتمانية</a>
-            <a href="#" onclick="openTab(event,'pay-by-method-2','pay-by-method','tabLink')" class="w3-right tabLink">باي
+            <a href="javascript:void(0)" onclick="openTab(event,'pay-by-method-2','pay-by-method','tabLink')" class="w3-right tabLink">باي
                 بال</a>
         </div>
         <div class="w3-container pay-by-method" id="pay-by-method-1">

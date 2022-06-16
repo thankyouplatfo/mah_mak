@@ -181,6 +181,10 @@ margin-0 {
     margin-left: 0 !important;
 }
 
+.m-0 {
+    margin: 0 !important;
+}
+
 
 .p-t-0 {
     padding-top: 0 !important;
@@ -206,6 +210,10 @@ margin-0 {
 .p-x-0 {
     padding-right: 0 !important;
     padding-left: 0 !important;
+}
+
+.p-0 {
+    padding: 0 !important;
 }
 
 /*Display*/
@@ -432,4 +440,12 @@ h3 {
 #origin-left-column {
     max-height: 1115px;
     overflow-y: auto;
+}
+
+/*width*/
+.w-100px {
+    width: 100px;
+}
+.w-333px {
+    width: 333px;
 }

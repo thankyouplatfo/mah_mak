@@ -45,9 +45,9 @@ Route::get('servCreate', function () {
     return view('serv.create');
 })->name('serv.create');
 //
-Route::get('/service_request_form', function () {
-    return view('service_request_form');
-})->name('service_request_form');
+Route::get('/add_ads', function () {
+    return view('add_ads');
+})->name('add_ads');
 //
 Route::get('/ads', function () {
     return view('ads');
@@ -56,7 +56,7 @@ Route::get('/chat', function () {
     return view('chat');
 })->name('chat');
 //
-Route::get('pay',function(){
+Route::get('pay', function () {
     return view('pay');
 })->name('pay');
 //
@@ -64,7 +64,10 @@ Route::get('servChat', function () {
     return view('serv.Chat');
 })->name('servChat');
 //
-//
 Route::get('rating', function () {
     return view('rating');
 })->name('rating');
+//
+Route::get('cnditions', function () {
+    return view('pages.cnditions');
+})->name('cnditions');

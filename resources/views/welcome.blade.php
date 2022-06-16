@@ -80,12 +80,12 @@
         </div>
         <div class="w3-center w3-margin-top w3-right-left" dir="ltr">
             <div class="w3-bar w3-border">
-                <a href="#">&raquo;</a>
-                <a href="#" class="w3-theme">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">&laquo;</a>
+                <a href="javascript:void(0)">&raquo;</a>
+                <a href="javascript:void(0)" class="w3-theme">1</a>
+                <a href="javascript:void(0)">2</a>
+                <a href="javascript:void(0)">3</a>
+                <a href="javascript:void(0)">4</a>
+                <a href="javascript:void(0)">&laquo;</a>
             </div>
         </div>
     </div>
