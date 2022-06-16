@@ -233,8 +233,15 @@
                     </div>
                     <!-- about user container -->
                     <div id="my-cv" class="closeThis w3-clear">
-                        <div class="">
-                            <h2><i class="fa fa-info-circle fa-fw w3-text-theme"></i>عني</h2>
+                        <div class="w3-bar">
+                            <h2 style="display: inline-block!important" class="w3-section"> <i
+                                    class="fa fa-info-circle fa-fw"></i>
+                                الخدمات
+                            </h2>
+                            <a href="{{ route('user_edit') }}" class="w3-text-theme w3-left w3-xlarge w3-margin-top"
+                                title="إضافة خدمة">
+                                <i class="fa-solid fa-user-pen"></i>
+                            </a>
                         </div>
                         <div class="w3-container">
                             <p>
@@ -300,10 +307,10 @@
                                     </th>
                                     <th><a href="javascript:void(0)"
                                             onclick="openTab(event,'closedAd','tabContent3','openAdsType')"
-                                            class=" w3-btn w3-medium w3-block w3-right w3-cyan openAdsType">مغلق</a></th>
+                                            class=" w3-btn w3-medium w3-block w3-right w3-cyan openAdsType w3-hide">مغلق</a></th>
                                     <th><a href="javascript:void(0)"
                                             onclick="openTab(event,'privateAd','tabContent3','openAdsType')"
-                                            class=" w3-btn w3-medium w3-block w3-right w3-blue openAdsType">خاص</a></th>
+                                            class=" w3-btn w3-medium w3-block w3-right w3-blue openAdsType w3-hide">خاص</a></th>
                                     <th><a href="javascript:void(0)"
                                             onclick="openTab(event,'canceledAd','tabContent3','openAdsType')"
                                             class=" w3-btn w3-medium w3-block w3-right w3-red openAdsType">ملغي</a></th>
@@ -337,7 +344,7 @@
                                 @include('inc.example_ad')
                             </div>
 
-                            <div id="closedAd" class="tabContent3 w3-container">
+                            <div id="closedAd" class="tabContent3 w3-container w3-hide">
                                 <h3>
                                     <span class="w3-tag w3-cyan ">مغلق</span>
                                     <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
@@ -345,7 +352,7 @@
                                 @include('inc.example_ad')
                             </div>
 
-                            <div id="privateAd" class="tabContent3 w3-container">
+                            <div id="privateAd" class="tabContent3 w3-container w3-hide">
                                 <h3>
                                     <span class="w3-tag w3-blue ">خاص</span>
                                     <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
@@ -389,11 +396,11 @@
                                     </th>
                                     <th><a href="javascript:void(0)"
                                             onclick="openTab(event,'closedOf','tabContent4','openProjctsType')"
-                                            class=" w3-btn w3-medium w3-block w3-right w3-cyan openProjctsType">مغلق</a>
+                                            class=" w3-btn w3-medium w3-block w3-right w3-cyan openProjctsType w3-hide">مغلق</a>
                                     </th>
                                     <th><a href="javascript:void(0)"
                                             onclick="openTab(event,'privateOf','tabContent4','openProjctsType')"
-                                            class=" w3-btn w3-medium w3-block w3-right w3-blue openProjctsType">خاص</a>
+                                            class=" w3-btn w3-medium w3-block w3-right w3-blue openProjctsType w3-hide">خاص</a>
                                     </th>
                                     <th><a href="javascript:void(0)"
                                             onclick="openTab(event,'canceledOf','tabContent4','openProjctsType')"
@@ -429,7 +436,7 @@
                                 @include('inc.example_ad')
                             </div>
 
-                            <div id="closedOf" class="tabContent4 w3-container">
+                            <div id="closedOf" class="tabContent4 w3-container w3-hide">
                                 <h3>
                                     <span class="w3-tag w3-cyan ">مغلق</span>
                                     <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
@@ -437,7 +444,7 @@
                                 @include('inc.example_ad')
                             </div>
 
-                            <div id="privateOf" class="tabContent4 w3-container">
+                            <div id="privateOf" class="tabContent4 w3-container w3-hide">
                                 <h3>
                                     <span class="w3-tag w3-blue ">خاص</span>
                                     <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
@@ -447,7 +454,7 @@
 
                             <div id="canceledOf" class="tabContent4 w3-container">
                                 <h3>
-                                    <span class="w3-tag w3-red  ">ملغي</span>
+                                    <span class="w3-tag w3-red">ملغي</span>
                                     <a href="javascript:void(0)" class="i-not-btn cnsb-txt-black"><b>نقل مواشي من مكة إلى الطائف</b></a>
                                 </h3>
                                 @include('inc.example_ad')
@@ -589,7 +596,6 @@
                     </div>
                     <!-- my-serv user container -->
                     <div id="my-serv" class="closeThis hide w3-display-container">
-
                         <div class="w3-bar">
                             <h2 style="display: inline-block!important" class="w3-section"> <i
                                     class="fa-solid fa-truck fa-flip-horizontal"></i>

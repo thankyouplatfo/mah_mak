@@ -5,7 +5,7 @@
 @section('keywords', 'صفحة تحكم المستخدم موقع محمول مكفول')
 @section('app')
 @section('containerPath')
-        <h1>جميع الأقسام</h1>
+    <h1>جميع الأقسام</h1>
 @endsection
 @section('content')
     <div class="w3-container w3-content" style="max-width:1400px;">
@@ -20,10 +20,20 @@
                         <div class="w3-border-bottom">
                             <h4>حالة الإعلان</h4>
                             <hr>
-                            <p> <i class="fa fa-comment fa-fw w3-large w3-text-theme"></i> مفاوضة مبدأية </p>
-                            <p class="w3-tooltip"> <i class="fa-solid fa-circle-exclamation w3-large w3-text-theme"></i>
-                                <abbr title="" class="cnsb-txt-red"> لا يمكن لصاحب الإعلان تلقي عروضك <span
-                                        class="w3-text">بسبب انشغاله غي مفاوضة مبدأية مع مقدم خدمة</span></abbr></p>
+                            <div>
+                                <p class="w3-xxlarge w3-center">
+                                    <i class="fa-solid fa-lock-open w3-text-grey w3-text-indigo"></i>
+                                    <b class="w3-block w3-center w3-large">مفتوح</b>
+                                </p>
+                                <p class="w3-xxlarge w3-center">
+                                    <i class="fas fa-toggle-on w3-text-grey w3-text-blue"></i>
+                                    <b class="w3-block w3-center w3-large">قيد التنفيذ</b>
+                                </p>
+                                <p class="w3-xxlarge w3-center">
+                                    <i class="fa-solid fa-trophy w3-text-light-blue"></i>
+                                    <b class="w3-block w3-center w3-large">منجز</b>
+                                </p>
+                            </div>
                         </div>
                         <div>
                             <h4>المعلن</h4>
@@ -90,7 +100,8 @@
                         <div class="w3-col l6 w3-right w3-padding-small w3-tooltip"><i class="fa-solid fa-briefcase"></i>
                             <abbr title=""> <span class="w3-text set-tooltip w3-tag cnsb-black w3-small"> سيقوم معلم/ين الفك
                                     والتركيب بفك/تركيب/فك وتركيب محتويات {{ 'مقدار العمل' }} </span> مقدار العمل </abbr>
-                            :{{ '' }} </div>
+                            :{{ '' }}
+                        </div>
                         <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-fingerprint"></i> الرقم
                             المميز للإعلان:</div>
                     </div>
@@ -144,6 +155,7 @@
                     <div class="w3-col l12 w3-theme-l5 w3-card-4 w3-container w3-section w3-panel w3-sand w3-serif">
                         <h4 class="w3-center w3-xxlarge bold"><i id="price">{{ '500.00' }}</i><span>ر.س</span></h4>
                     </div>
+                    @include('inc.ads.ads_url_container')
                     <div class="w3-col l12 w3-theme-l5 w3-card-4">
                         <div class="w3-bar w3-col l12 w3-theme-d4">
                             <div class="w3-col l4 w3-right w3-hide">
@@ -151,10 +163,14 @@
                                     المفاوضة</a>
                             </div>
                             <div class="w3-col l4 w3-right">
-                                <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-thumbs-up"></i> إعجاب</a>
+                                <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-thumbs-up"></i>
+                                    إعجاب</a>
                             </div>
                             <div class="w3-col l4 w3-right">
-                                <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-share"></i> شارك الإعلان</a>
+                                <a href="javascript:void(0)" style="width:100%" id="adsUrlBtn">
+                                    <i class="fa-solid fa-share"></i>
+                                    شارك الإعلان
+                                </a>
                             </div>
                             <div class="w3-col l4 w3-right">
                                 <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
@@ -267,22 +283,27 @@
                                             منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
                                         </p>
                                     </div>
-                                    <div class="w3-border-top w3-col l12 w3-xlarge w3-center bold margin-top-c1">
-                                        <p class="w3-center margin-padding-0">
-                                            500.00 ر.س
+                                    <div class="w3-border-top w3-col l12 w3-xlarge w3-center bold margin-top-c1 w3-">
+                                        <p class="w3-center margin-padding-0 w3-text-theme">
+                                            <i>500.00</i> ر.س
                                         </p>
+                                    </div>
+                                    <div class="w3-col w3-l12">
+                                        @include('inc.ads.ads_send_msg_box')
                                     </div>
                                     <div class="w3-bar w3-col l12 w3-theme-d4">
                                         <div class="w3-col l4 w3-right">
-                                            <a href="/chat" target="_blank" style="width:100%"><i
+                                            <a href="javascript:void(0)" style="width:100%" id="adsMsgBoxBtn"><i
                                                     class="fa-solid fa-comments"></i> قبول العرض</a>
                                         </div>
                                         <div class="w3-col l4 w3-right">
-                                            <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-rectangle-xmark"></i> رفض
+                                            <a href="javascript:void(0)" style="width:100%"><i
+                                                    class="fa-solid fa-rectangle-xmark"></i> رفض
                                                 وحذف العرض</a>
                                         </div>
                                         <div class="w3-col l4 w3-right">
-                                            <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
+                                            <a href="{{ route('welcome', '#contact') }}" style="width:100%"><i
+                                                    class="fa-solid fa-flag"></i> إبلاغ</a>
                                         </div>
                                     </div>
 

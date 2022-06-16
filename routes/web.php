@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 //
 Route::get('r', function () {
     return view('Auth.r');
@@ -52,9 +52,18 @@ Route::get('/add_ads', function () {
 Route::get('/ads', function () {
     return view('ads');
 })->name('ads');
+//
 Route::get('/chat', function () {
     return view('chat');
 })->name('chat');
+//
+Route::get('/chat2', function () {
+    return view('pages.chat2');
+})->name('chat2');
+//
+Route::get('/chat3', function () {
+    return view('pages.chat3');
+})->name('chat3');
 //
 Route::get('pay', function () {
     return view('pay');

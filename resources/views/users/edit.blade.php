@@ -11,7 +11,6 @@
         <div class="w3-white">
             <div class="w3-section">
                 <div class="w3-bar w3-theme-l3">
-                    
                     <a class="w3-right" href="#personalInformation">
                         <i class="fa-solid fa-user"></i>
                     </a>
@@ -30,7 +29,6 @@
                     <a class="w3-right" href="#previousExperience">
                         <i class="fa-solid fa-user-doctor"></i>
                     </a>
-
                 </div>
                 <form class="w3-container" id="personalInformation" enctype="multipart/form-data">
                     <br>
@@ -228,8 +226,7 @@
                             </footer>
                         </div>
                     </div>
-                    <h3 class="w3-section">اعدادات أطلبني الان | <b class="w3-yellow w3-tag w3-medium"
-                            style="position: relative;bottom:4.5px;">ستصلك إشعارات حسب إهتماماتك</b> </h3>
+                    <h3 class="w3-section">اعدادات أطلبني الان</h3>
                     <div class="w3-row-padding w3-stretch w3-section">
                         <div class="w3-col l4 w3-right">
                             <div>
@@ -245,12 +242,10 @@
                                         عميل </b></label>
                             </div>
                         </div>
-                        <div class="w3-col l4 w3-right">
+                        <div class="w3-col w3-right w3-section">
                             <div>
-                                <label for="checkAgriculturalProducts"><input
-                                        class="inline w3-check w3-border checkAgriculturalProducts"
-                                        name="checkAgriculturalProducts" id="checkAgriculturalProducts" type="checkbox"><b>
-                                        شبح </b></label>
+                                <label for=""><b> ماهو السعر الذي تحدد لنفسك عندما تكون موجودا بشكل مباشر ؟</b></label>
+                                <input class="w3-border " name="" id="" type="number">
                             </div>
                         </div>
                         <div class="w3-col l12 w3-margin-top">

@@ -6,7 +6,7 @@
             <img src="{{ asset('images/users/profile/avatar_hat.jpg') }}" style="height:320px;width:100%"
                 alt="Avatar">
         </p>
-        <div class="w3-container" style="padding-right:6px!important;padding-left:6px!important">
+        <div class="w3-container" style="padding-right:10px!important;padding-left:10px!important">
             <p>
                 <i class="fa fa-heading fa-fw w3-large w3-text-theme"></i> الإسم:
                 <a href="{{ route('serv.show') }}" target="_blank" class="i-not-btn">moataz moataz moataz</a>

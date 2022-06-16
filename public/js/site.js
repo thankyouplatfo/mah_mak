@@ -96,3 +96,15 @@ $('.steps-button').addClass('w3-btn w3-left w3-border w3-hover-theme')
 $("#service_type").change(function () {
     $('.ad-title').text($('option:selected', $(this)).text());
 });
+//
+function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).html()).select();
+    document.execCommand("copy");
+    $temp.remove();
+}
+//
+$("#adsUrlBtn").click(function () { $("#adsUrlContainer").toggle("slow", function () { }); });
+//
+$("#adsMsgBoxBtn").click(function () { $("#adsMsgBoxContainer").toggle("slow", function () { }); });

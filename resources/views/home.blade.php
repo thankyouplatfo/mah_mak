@@ -11,53 +11,109 @@
     <div class="w3-container w3-content" style="max-width:1400px;">
         <!-- The Grid -->
         <div class="w3-row">
-            <!--the filter-->
+            <!--Basic Categories-->
             <div class="w3-row w3-section w3-light-grey" style="height: 135px;margin-bottom:100px;">
                 <div class="w3-col w3-right l12 w3-xlarge w3-light-grey"
                     style="max-width: 100%;overflow-y:hidden;overflow-x:auto;white-space:nowrap;height:inherit">
                     <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
-                        <h2 class="i-not-head w3-center"><i class="fa fa-truck w3-jumbo" aria-hidden="true"></i><span
-                                class="w3-block w3-center"> قسم النقل</span></h2>
+                        <h2 class="i-not-head w3-center">
+                            <i class="fa fa-truck w3-jumbo" aria-hidden="true"></i><span class="w3-block w3-center"> قسم
+                                النقل</span>
+                        </h2>
                     </a>
                     <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
-                        <h2 class="i-not-head w3-center"><i class="fa-solid fa-truck-ramp-box w3-jumbo"
-                                aria-hidden="true"></i><span class="w3-block w3-center"> قسم التحميل وتنزيل</span></h2>
+                        <h2 class="i-not-head w3-center">
+                            <i class="fa-solid fa-truck-ramp-box w3-jumbo" aria-hidden="true"></i><span
+                                class="w3-block w3-center"> قسم التحميل وتنزيل</span>
+                        </h2>
                     </a>
                     <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
-                        <h2 class="i-not-head w3-center"><i class="fa-solid fa-screwdriver-wrench w3-jumbo"
-                                aria-hidden="true"></i><span class="w3-block w3-center"> قسم االفك والتركيب</span></h2>
+                        <h2 class="i-not-head w3-center">
+                            <i class="fa-solid fa-screwdriver-wrench w3-jumbo" aria-hidden="true"></i><span
+                                class="w3-block w3-center"> قسم الفك والتركيب</span>
+                        </h2>
                     </a>
                 </div>
             </div>
-            <div class="w3-col l12 w3-margin-bottom w3-show">
-                <input type="text" id="show_only" onchange="w3.filterHTML('#id01', 'li', this.value)"
-                    placeholder="القسم | اسم الخدمة | العدد | حالة القفص | نوع المركبة | الوزن | من | إلى | المسافة | الموقع | عدد المفاوضين | تاريخ النشر">
-            </div>
-            <!-- Right Column -->
-            <div class="w3-col w3-right m3">
-                <!-- Profile -->
-                <div class="w3-card round w3-white">
-                    <div class="w3-container">
-                        <a href="users" class="i-not-btn">
-                            <h3 class="w3-center">ملفي الشخصي</h3>
-                        </a>
-                        <p class="w3-center"><img src="{{ asset('images/users/profile/avatar_hat.jpg') }}"
-                                class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
-                        <hr>
-                        <p> <i class="fa fa-user fa-fw w3-large w3-text-theme"></i> محمد عبد الله </p>
-                        <p> <i class="fa fa-briefcase fa-fw w3-large w3-text-theme"></i> سائق | معلم فك وتركيب | عامل تحميل
-                            وتنزيل</p>
-                        <p> <i class="fa fa-home fa-fw w3-large w3-text-theme"></i> مكة, السعودية</p>
-                        <p> <i class="fa fa-envelope fa-fw w3-large w3-text-theme"></i> ex@mail.com</p>
-                        <p> <i class="fa fa-phone fa-fw w3-large w3-text-theme"></i> 1224435534</p>
-                    </div>
+            <!--Sub Categories-->
+            <div class="w3-row w3-section w3-light-grey" style=";margin-bottom:100px;">
+                <div class="w3-col w3-right w3-light-grey"
+                    style="max-width: 100%;overflow-y:hidden;overflow-x:auto;white-space:nowrap">
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل مواشي </span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل طيور</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل حيوانات اليفة</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل حيوانات مفترسة</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل أشجار</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل شتلات زراعية</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل أعلاف </span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل بضائع</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">نقل أثاث</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">فك والتركيب</span>
+                        </h3>
+                    </a>
+                    <a href="javascript:void(0)" target="_blank" class="w3-hover-text-theme w3-hover-none">
+                        <h3 class="i-not-head w3-center w3-text-black w3-medium">
+                            <span class="w3-block w3-center">خدمات التحميل والتنزيل</span>
+                        </h3>
+                    </a>
                 </div>
-                <br>
-                <!-- End Right Columen -->
             </div>
-            <!-- Left Column -->
-            <div class="w3-col w3-right m9">
-                <div class="w3-container round w3-margin-bottom leftCloumenAdsPage">
+            <!--Sub Categories-->
+            <div class="w3-bar w3-theme-l3">
+                <a href="javascript:void(0)" onclick="openTab(event,'ads','container','tabLink')"
+                    class="w3-right w3-theme-action tabLink w3-bar-item w3-button">
+                    الإعلانات
+                </a>
+                <a href="javascript:void(0)" onclick="openTab(event,'order_my_now','container','tabLink')"
+                    class="w3-right tabLink w3-bar-item w3-button">
+                    أطلبني الان
+                </a>
+                <a href="javascript:void(0)" onclick="openTab(event,'service','container','tabLink')"
+                    class="w3-right tabLink w3-bar-item w3-button">
+                    الخدمات
+                </a>
+            </div>
+            <!---->
+            <div class="w3-col w3-right w3-margin-top container" style="display: block" id="ads">
+                <div class="w3-margin-bottom leftCloumenAdsPage">
                     <ul class="w3-ul" id="id01">
                         <li
                             class="w3-bar w3-card-4 w3-theme-l5 w3-margin-bottom w3-hover-border-theme w3-border cnsb-hov-bor-large">
@@ -68,17 +124,19 @@
                                 class="w3-bar-item w3-circle w3-hide-small w3-right" style="width:85px" alt="blablabla">
                             <div class="w3-bar-item w3-right ">
                                 <a href="ads" target="_blank" class="i-not-btn">
-                                    <h4>عنوان الإعلان</h4>
+                                    <h4 style="color: black!important;font-size:x-large">عنوان الإعلان</h4>
                                 </a>
                             </div>
-                            <div class="w3-bar-item w3-right w3-row w3-small">
-                                <div class="w3-col l12 w3-right w3-padding-small"><i class="fa fa-user"
-                                        aria-hidden="true"></i> معرف المستخدم:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-puzzle-piece"></i>
+                            <div class="w3-bar-item w3-right w3-row-padding w3-small">
+                                <div class="w3-border-top"></div>
+                                <div class="w3-col l12 w3-right w3-padding-small" style="padding-top: 13px!important"><i
+                                        class="fa fa-user" aria-hidden="true"></i> معرف المستخدم:</div>
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa-solid fa-puzzle-piece"></i>
                                     القسم:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-file-signature"></i>
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i
+                                        class="fa-solid fa-file-signature"></i>
                                     اسم الخدمة:{{ '' }}</div>
-                                <div class="w3-col l6 w3-right w3-padding-small w3-tooltip"><i
+                                <div class="w3-col m4 l3 w3-right w3-padding-small w3-tooltip"><i
                                         class="fa-solid fa-arrow-up-1-9"></i>
                                     <abbr title="">
                                         <span class="w3-text set-tooltip w3-tag cnsb-black w3-small">عدد الحيوانات التي
@@ -86,9 +144,9 @@
                                         العدد
                                     </abbr>:{{ '' }}
                                 </div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-dog"></i> حالة
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa-solid fa-dog"></i> حالة
                                     القفص:{{ '' }}</div>
-                                <div class="w3-col l6 w3-right w3-padding-small w3-tooltip"><i
+                                <div class="w3-col m4 l3 w3-right w3-padding-small w3-tooltip"><i
                                         class="fa-solid fa-truck"></i>
                                     <abbr title="">
                                         <span class="w3-text set-tooltip w3-tag cnsb-black w3-small"> نوع المركبة التي يرها
@@ -96,7 +154,7 @@
                                         نوع المركبة
                                     </abbr>:{{ '' }}
                                 </div>
-                                <div class="w3-col l6 w3-right w3-padding-small w3-tooltip"><i
+                                <div class="w3-col m4 l3 w3-right w3-padding-small w3-tooltip"><i
                                         class="fa-solid fa-weight-hanging"></i>
                                     <abbr title="">
                                         <span class="w3-text set-tooltip w3-tag cnsb-black w3-small"> هذا هو الوزن التقديري
@@ -105,23 +163,25 @@
                                     </abbr>
                                     :{{ '' }}
                                 </div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-street-view"></i> من:
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa-solid fa-street-view"></i>
+                                    من:
                                 </div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-street-view"></i>
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa-solid fa-street-view"></i>
                                     إلى:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-road"></i> المسافة:
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa-solid fa-road"></i>
+                                    المسافة:
                                 </div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i
                                         class="fa-solid fa-road-circle-exclamation"></i> يتضمن مسار الرحلة طريق وعرة:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i
                                         class="fa-solid fa-road-circle-exclamation"></i> يتضمن مسار الرحلة طريق برية:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa fa-map-marker"
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa fa-map-marker"
                                         aria-hidden="true"></i> الموقع:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa fa-comments"
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa fa-comments"
                                         aria-hidden="true"></i> عدد المفاوضين:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa fa-calendar"
+                                <div class="w3-col m4 l3 w3-right w3-padding-small"><i class="fa fa-calendar"
                                         aria-hidden="true"></i> تاريخ النشر:</div>
-                                <div class="w3-col l6 w3-right w3-padding-small w3-tooltip"><i
+                                <div class="w3-col m4 l3 w3-right w3-padding-small w3-tooltip"><i
                                         class="fa-solid fa-briefcase"></i>
                                     <abbr title="">
                                         <span class="w3-text set-tooltip w3-tag cnsb-black w3-small"> سيقوم معلم/ين الفك
@@ -130,27 +190,39 @@
                                     </abbr>
                                     :{{ '' }}
                                 </div>
-                                <div class="w3-col l6 w3-right w3-padding-small"><i class="fa-solid fa-fingerprint"></i>
-                                    الرقم المميز للإعلان:</div>
-
-                                <div class="w3-border-top w3-col l12 w3-xlarge w3-center bold margin-top-c1">
-                                    <p class="w3-center margin-padding-0">
-                                        500.00 ر.س
-                                    </p>
+                                <div class="w3-col m4 l3 w3-right w3-padding-small w3-clear">
+                                    <i class="fa-solid fa-fingerprint"></i>
+                                    الرقم المميز للإعلان:
                                 </div>
-                                <div class="w3-bar w3-col l12 w3-theme-d4">
+                                <div class="w3-clear"></div>
+                                <hr class="w3-clear w3-block">
+                                <div class="w3-center w3-xxlarge bold w3-clear w3-text-theme"
+                                    style="margin-top: -12px;margin-bottom: 12px;">
+                                    <i id="price">
+                                        {{ '500.00' }}
+                                    </i>
+                                    <span>ر.س</span>
+                                </div>
+                                @include('inc.ads.ads_url_container')
+                                <div class="w3-bar w3-theme-d4 w3-large">
                                     <div class="w3-col l3 w3-right">
                                         <a href="ads" target="_blank" style="width:100%"><i
                                                 class="fa-solid fa-comments"></i> بدء المفاوضة</a>
                                     </div>
                                     <div class="w3-col l3 w3-right">
-                                        <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-thumbs-up"></i> إعجاب</a>
+                                        <a href="javascript:void(0)" style="width:100%"><i
+                                                class="fa-solid fa-thumbs-up"></i> إعجاب</a>
                                     </div>
                                     <div class="w3-col l3 w3-right">
-                                        <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-share"></i> شارك الإعلان</a>
+                                        <a href="javascript:void(0)" style="width:100%" id="adsUrlBtn">
+                                            <i class="fa-solid fa-share"></i>
+                                            شارك الإعلان
+                                        </a>
                                     </div>
                                     <div class="w3-col l3 w3-right">
-                                        <a href="javascript:void(0)" style="width:100%"><i class="fa-solid fa-flag"></i> إبلاغ</a>
+                                        <a href="{{ route('welcome', '#contact') }}" style="width:100%"><i
+                                                class="fa-solid fa-flag"></i>
+                                            إبلاغ</a>
                                     </div>
                                 </div>
 
@@ -158,11 +230,31 @@
                         </li>
                     </ul>
                 </div>
-                <!-- End Left Column -->
             </div>
-
-
-
+            <!---->
+            <div class="w3-col w3-right w3-margin-top container" style="display: none" id="order_my_now">
+                <div class="w3-margin-bottom leftCloumenAdsPage">
+                    <div class="w3-row-padding w3-stretch">
+                        <div class="w3-col w3-right l4">
+                            @include('inc.profile_for_order_my')
+                        </div>
+                        <div class="w3-col w3-right l4">
+                            @include('inc.profile_for_order_my')
+                        </div>
+                        <div class="w3-col w3-right l4">
+                            @include('inc.profile_for_order_my')
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="w3-col w3-right w3-margin-top container" style="display: none" id="service">
+                <div class="w3-row-padding w3-stretch">
+                    @include('inc.serv_card')
+                    @include('inc.serv_card')
+                    @include('inc.serv_card')
+                </div>
+            </div>
             <!-- End Grid -->
         </div>
 

@@ -5,7 +5,7 @@
 @section('keywords', 'صفحة تحكم المستخدم موقع محمول مكفول')
 @section('app')
 @section('containerPath')
-        <h1>تطبيق الدردشة</h1>
+    <h1>تطبيق الدردشة</h1>
 @endsection
 @section('content')
     <!-- Page Container -->
@@ -16,8 +16,6 @@
                 <header class="w3-bar">
                     <ul class="w3-ul w3-card-4">
                         <li class="w3-bar">
-                            <button onclick="openTab(event, 'id01', 'closeThis', 'tabLink')" class="w3-button tabLink"><i
-                                    class="w3-bar-item w3-button w3-xxxlarge w3-left w3-padding-16 fa-solid fa-arrow-up-right-from-square"></i></button>
                             <div id="id01" class="w3-modal">
                                 <div class="w3-modal-content">
                                     <div class="w3-container w3-teal header">
